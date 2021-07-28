@@ -1,0 +1,381 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-28T19:18:39.016Z",
+        "line": 4,
+        "name": "To validate Sign up Option",
+        "description": "",
+        "id": "test-sign-up-and-send-functionality;to-validate-sign-up-option",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12357099800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login page of upskill application should be  open",
+            "match": {
+              "location": "StepDefination1.endtoendTest.login_page_of_upskill_application_should_be_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77210000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the home page language is English",
+            "match": {
+              "location": "StepDefination1.endtoendTest.verify_the_home_page_language_is_english()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4159040600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Signup link",
+            "match": {
+              "location": "StepDefination1.endtoendTest.click_on_signup_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3035859800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Registration page/form gets displayed",
+            "match": {
+              "location": "StepDefination1.endtoendTest.registration_page_form_gets_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-28T19:18:58.916Z",
+        "line": 12,
+        "name": "To validation registration page",
+        "description": "",
+        "id": "test-sign-up-and-send-functionality;to-validation-registration-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5008808600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "login to registration page form",
+            "match": {
+              "location": "StepDefination1.endtoendTest.login_to_registration_page_form()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat StepDefination1.endtoendTest.enter_the_firstname(endtoendTest.java:66)\r\n\tat ✽.Enter the firstname \"Test1\"(file:///C:/Users/PoolaSanjay/Desktop/SDET/Cuccumber/Assignment/src/test/resources/Upskill_App/Login.feature:15)\r\n",
+              "duration": 7468800,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "Enter the firstname \"Test1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test1\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefination1.endtoendTest.enter_the_firstname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 862100,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Enter the lastname \"Test1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test1\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefination1.endtoendTest.enter_the_lastname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6954100,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Enter email id \"Test1@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test1@gmail.com\"",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefination1.endtoendTest.enter_email_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Enter username \"Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testing\"",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefination1.endtoendTest.enter_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Enter password \"Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testing\"",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefination1.endtoendTest.enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2503300,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Enter confirm password",
+            "match": {
+              "location": "StepDefination1.endtoendTest.enter_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996400,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Click on Registration button",
+            "match": {
+              "location": "StepDefination1.endtoendTest.click_on_registration_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Confirmation message gets displayed",
+            "match": {
+              "location": "StepDefination1.endtoendTest.confirmation_message_gets_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-28T19:19:04.067Z",
+        "line": 24,
+        "name": "To validate user details",
+        "description": "",
+        "id": "test-sign-up-and-send-functionality;to-validate-user-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "validate user details in home page",
+            "match": {
+              "location": "StepDefination1.endtoendTest.validate_user_details_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat StepDefination1.endtoendTest.verify_user_entered_email_is_correct(endtoendTest.java:120)\r\n\tat ✽.verify user entered email is correct(file:///C:/Users/PoolaSanjay/Desktop/SDET/Cuccumber/Assignment/src/test/resources/Upskill_App/Login.feature:27)\r\n",
+              "duration": 328200,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "verify user entered email is correct",
+            "match": {
+              "location": "StepDefination1.endtoendTest.verify_user_entered_email_is_correct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1557400,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "confirm user details",
+            "match": {
+              "location": "StepDefination1.endtoendTest.confirm_user_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-28T19:19:04.098Z",
+        "line": 30,
+        "name": "To validate compose send the email",
+        "description": "",
+        "id": "test-sign-up-and-send-functionality;to-validate-compose-send-the-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat StepDefination1.endtoendTest.click_on_home_page(endtoendTest.java:140)\r\n\tat ✽.Click on Home page(file:///C:/Users/PoolaSanjay/Desktop/SDET/Cuccumber/Assignment/src/test/resources/Upskill_App/Login.feature:32)\r\n",
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "Click on Home page",
+            "match": {
+              "location": "StepDefination1.endtoendTest.click_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "Click on Compose link from left side menu",
+            "match": {
+              "location": "StepDefination1.endtoendTest.click_on_compose_link_from_left_side_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "Enter email id as \"naveen1@naveen1.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"naveen1@naveen1.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefination1.endtoendTest.enter_email_id_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "Enter subject as \"Hi for testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hi for testing\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefination1.endtoendTest.enter_subject_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "Enter message as \"Hello Naveen, This is for Testing From, Naveen1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello Naveen, This is for Testing From, Naveen1\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefination1.endtoendTest.enter_message_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Click on Send Message",
+            "match": {
+              "location": "StepDefination1.endtoendTest.click_on_send_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Acknowledge message gets displayed \"The message has been sent to naveen naveen (naveen)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The message has been sent to naveen naveen (naveen)\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination1.endtoendTest.acknowledge_message_gets_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Sign up and send functionality",
+    "description": "",
+    "id": "test-sign-up-and-send-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Upskill_App/Login.feature",
+    "tags": []
+  }
+]
